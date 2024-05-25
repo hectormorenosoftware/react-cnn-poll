@@ -1,0 +1,9 @@
+.cards-flex-box {
+  display: flex;
+  justify-content: center;
+}
+
+.card-dimensions {
+  width: 400px;
+  height: 500px;
+}
