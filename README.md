@@ -8,3 +8,5 @@ npm start
 
 To build run
 npm run build
+
+You can see this website through the url below: https://dainty-pothos-75e3a1.netlify.app
