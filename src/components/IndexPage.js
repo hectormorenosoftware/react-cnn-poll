@@ -14,7 +14,8 @@ class IndexPage extends React.PureComponent {
         <div className="row">
           <div className="col">
             <div className="Cards">
-              <h2>CNN Presidentian Poll</h2>
+              <h1>CNN Presidentian Poll</h1>
+              <h2>Click on image to vote</h2>
               <div className="col button-flex-box">
                 <button
                   className="btn btn-confirm"
@@ -27,14 +28,14 @@ class IndexPage extends React.PureComponent {
               <div className="CardGroup">
                 <Card
                   title="Joe Biden"
-                  text="Click to vote for Joe Biden"
+                  text=""
                   image={JoeBiden}
                   pollSelection="selectionOne"
                   onClickEventEnabled={true}
                 />
                 <Card
                   title="Donald J. Trump"
-                  text="Click to vote for Donald J. Trump"
+                  text=""
                   image={PresidentDonaldJTrump}
                   pollSelection="selectionTwo"
                   onClickEventEnabled={true}

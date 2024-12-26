@@ -23,6 +23,12 @@ a {
   font-weight: 600;
 }
 
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
 h2 {
   margin: 3px 20px;
   font-size: 2rem;
@@ -32,6 +38,12 @@ h2 {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 .button-flex-box {
